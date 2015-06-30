@@ -6,12 +6,21 @@ body {
 }
 
 h1 {
-	font-size: 2em;
-	margin: auto;
+	font-size: 2.5em;
 }
 
 img {
 	border-radius: 147px;
-	align: center;
+	/*align: center;*/
 	margin: auto;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+a {
+	color: white;
+	font-size: 1.75em;
+	text-decoration: none;
 }

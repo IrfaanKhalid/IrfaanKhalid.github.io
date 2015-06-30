@@ -2,6 +2,7 @@ body {
 	background-color: #7ec0ee;
 	font-family: monospace;
 	color: white;
+	text-align: center;
 }
 
 h1 {
@@ -11,5 +12,6 @@ h1 {
 
 img {
 	border-radius: 147px;
+	align: center;
 	margin: auto;
 }

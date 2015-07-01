@@ -35,3 +35,7 @@ a {
 a:hover {
 	font-size: 2em;
 }
+
+a:visited {
+	color: #b2b2b2;
+}

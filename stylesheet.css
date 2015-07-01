@@ -22,7 +22,7 @@ h2 {
 	font-size: 2em;
 }
 
-span {
+.link_dividers {
 	color: #b2b2b2;
 }
 
@@ -30,4 +30,8 @@ a {
 	color: white;
 	font-size: 1.75em;
 	text-decoration: none;
+}
+
+a:hover {
+	font-size: 2em;
 }

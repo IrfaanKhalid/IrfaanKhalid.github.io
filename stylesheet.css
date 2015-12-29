@@ -2,9 +2,10 @@
 irfaan.khalid@vanderbilt.edu*/
 
 body {
-	background-color: #023859;
+
+	background-color: white;
 	font-family: monospace;
-	color: white;
+	color: gray;
 	text-align: center;
 	margin: auto;
 }

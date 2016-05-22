@@ -1,41 +1,86 @@
-/*Irfdawg Code Productions
-irfaan.khalid@vanderbilt.edu*/
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html, body {
+    background-color: #333333;
+}
 
 body {
-
-	background-color: white;
-	font-family: monospace;
-	color: gray;
-	text-align: center;
-	margin: auto;
+    font-family: 'Roboto Condensed';
+    color: white;
 }
 
-h1 {
-	font-size: 2.5em;
+.intro {
+    height: 38.625em;
 }
 
-img {
-	width: 300px
-	height: 300px;
-	border-radius: 150px;
-	border: 2px solid white;
-	margin: auto;
+.introLeft {
+    float: left;
+    height: 25em;
+    width: 40%;
 }
 
-h2 {
-	font-size: 2em;
+.introLeft img {
+    border-radius: 200px;
+    margin-top: 6.53125em;
+    margin-left: 3.125em;
+    display: inline-block;
 }
 
-.link_dividers {
-	color: #b2b2b2;
+.introLeft p {
+    margin-top: 1em;
+    margin-left: 4.9em;
+    font-size: 2em;
+
 }
 
-a {
-	color: gray;
-	font-size: 1.75em;
-	text-decoration: none;
+.introRight {
+    width: 55%;
+    float: right;
 }
 
-a:hover {
-	font-size: 2em;
+.introRight p {
+    margin-top: 15%;
+    margin-right: 5em;
+    align-self: left;
 }
+
+.studentLead {
+    height: 38.5625em;
+    width: 79.125em;
+    margin-left: -.75em;
+
+
+    background-image: url("images/google-io.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+

@@ -35,9 +35,11 @@ body {
 }
 
 .introRight {
-    margin-top: 3em;
+    height: auto;
     width: 60%;
     float: right;
+    margin-top: 3em;
+
 }
 
 .introRight p {
@@ -59,8 +61,8 @@ body {
 }
 
 .studentLead {
-    height: 38.5625em;
-    width: 79.125em;
+    height: 100vh;
+    width: 99vw;
     margin-left: -.75em;
 
     background-image: url("images/google-io.jpg");
@@ -68,67 +70,53 @@ body {
 }
 
 .student {
-  height: 38.625em;
+  height: 100vh;
 }
 
-.student embed {
-  height: 36em;
-  width: 25.5em;
-  margin: 2.5em 0em 0em 2.1em;
+.studentLeft {
+  float: left;
+  height: 100vh;
+  width: 40%;
+}
+
+.studentLeft #resume {
+  height: 89vh;
+  width: 90%;
+  margin: 5% 5% 5% 5%;
 }
 
 .studentRight {
-  margin-top: 5em;
+  height: auto;
   width: 60%;
   float: right;
+  margin-top: 3em;
 }
 
-.studentRight h1, h2{
+.studentRight h1, h2 {
   margin-right: 1em;
   align-self: left;
 }
 
 .orgsWrapper {
-  display: table;
-  width:inherit;
-}
-
-.orgsWrapper img {
-  margin-right: 3em;
-}
-
-.orgsWrapper h4 {
-  margin-top: -10px;
-  align-items: center;
-  align-self: center;
-  align-content: center;
+  display: flex;
+  width: 59vw;
+  margin-top: 12.5vh;
 }
 
 .org {
-  display: table-cell;
-  width: auto;
-
-}
-
-#orgsRow {
   display: table-row;
+  width: 12.5vw;
+  margin-right: 7.5vw;
 }
 
 .org img {
-  width: inherit;
-}
-
-#vh {
-   height: 150px;
-   width: 150px;
-}
-
-#vsw {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   height: 150px;
   width: 150px;
 }
 
-#toastmasters {
-  height: 150px;
-  width: 181px;
+.org h4 {
+  text-align: center;
 }

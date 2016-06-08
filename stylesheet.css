@@ -62,8 +62,9 @@ body {
 
 .studentLead {
     height: 100vh;
-    width: 99vw;
-    margin-left: -.75em;
+    width: 100vw;
+    /*may need to fix this margin for certain computers*/
+    margin-left: -2vw;
 
     background-image: url("images/google-io.jpg");
     background-size: cover;
@@ -75,19 +76,19 @@ body {
 
 .studentLeft {
   float: left;
-  height: 100vh;
+  height: 100%;
   width: 40%;
 }
 
 .studentLeft #resume {
-  height: 89vh;
+  height: 95%;
   width: 90%;
-  margin: 5% 5% 5% 5%;
+  margin: 2.5% 5% 2.5% 5%;
 }
 
 .studentRight {
   height: auto;
-  width: 60%;
+  width: 59%;
   float: right;
   margin-top: 3em;
 }
@@ -97,26 +98,34 @@ body {
   align-self: left;
 }
 
+.break {
+  height: 5vh;
+}
+
 .orgsWrapper {
-  display: flex;
-  width: 59vw;
-  margin-top: 12.5vh;
+  display: table-row;
+  width: 55vw;
+
 }
 
 .org {
-  display: table-row;
-  width: 12.5vw;
-  margin-right: 6.5vw;
+  display: table-cell;
+  width: 18vw;
+  text-align: center;
 }
 
 .org img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
   height: 150px;
   width: 150px;
 }
 
-.org h4 {
-  text-align: center;
+
+
+.devLead {
+    height: 100vh;
+    width: 99vw;
+    margin-left: -.75em;
+
+    background-image: url("files/thedevimg.png");
+    background-size: cover;
 }

@@ -8,25 +8,30 @@ body {
 }
 
 .intro {
-    height: 38.625em;
+    height: 100vh;
 }
 
 .introLeft {
     float: left;
-    height: 25em;
+    height: 100vh;
     width: 40%;
 }
 
 .introLeft img {
-    border-radius: 200px;
-    margin-top: 6.53125em;
-    margin-left: 3.125em;
-    display: inline-block;
+    height: 25em;
+    width: 25em;
+    border-radius: 12.5em;
+
+    display: flex;
+    margin-top: 12.5vh;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .introLeft h1 {
-    margin-top: 1em;
-    margin-left: 4.7em;
+    text-align: center;
+    line-height: inherit;
 }
 
 .introRight {
@@ -94,11 +99,9 @@ body {
 
 .orgsWrapper h4 {
   margin-top: -10px;
-  margin-left: 1.6em;
-}
-
-.orgsWrapper h5 {
-  margin-top: -2em;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
 .org {
@@ -113,14 +116,6 @@ body {
 
 .org img {
   width: inherit;
-}
-
-.org h4, h5 {
-  width: auto;
-  align-items: center;
-  align-self: center;
-  align-content: center;
-
 }
 
 #vh {

@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-.intro {
+.mainSection {
     height: 100vh;
 }
 
@@ -68,10 +68,6 @@ body {
 
     background-image: url("images/google-io.jpg");
     background-size: cover;
-}
-
-.student {
-  height: 100vh;
 }
 
 .studentLeft {

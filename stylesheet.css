@@ -2,7 +2,13 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+.partition {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 5vh;
+}
+
 #resume {
-  width: 459px;
-  height: 594px;
+  height: 85vh;
+  width: 32vw;
 }

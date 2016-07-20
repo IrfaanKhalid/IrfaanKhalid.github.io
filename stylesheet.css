@@ -2,13 +2,29 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+/*reusable css for every section of the site. e.g. dev, writer, etc*/
 .partition {
   height: 100vh;
   width: 100vw;
   padding-top: 5vh;
 }
 
+/*vertical alignment is hard. altered a solution on stack overflow*/
+.content {
+  display: table-cell;
+  width: 50vw;
+  height: 100vh;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.content-inner {
+  display: inline-block;
+  width: 50vw; height: 50vh;
+}
+
+/*o shit waddup*/
 #resume {
-  height: 85vh;
-  width: 32vw;
+  height: 86vh;
+  width: 30vw;
 }

@@ -2,6 +2,13 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+/** links at the bottom of intro page **/
+.introIcon {
+  padding-top: 2vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+
 /*reusable css for every section of the site. e.g. dev, writer, etc*/
 .partition {
   height: 100vh;
@@ -27,4 +34,15 @@ html, body {
 #resume {
   height: 86vh;
   width: 30vw;
+}
+
+/**organization buttons**/
+.orgs div {
+  width: 15vh;
+  height: 15vh;
+}
+
+.orgs img {
+  width: 15vh;
+  height: 15vh;
 }

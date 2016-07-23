@@ -42,7 +42,7 @@ html, body {
   height: 15vh;
 }
 
-.orgs img {
+.orgs img:not(#mistImg){
   width: 15vh;
   height: 15vh;
 }

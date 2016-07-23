@@ -20,14 +20,14 @@ html, body {
 .content {
   display: table-cell;
   width: 50vw;
-  height: 100vh;
+  height: 100%;
   vertical-align: middle;
   text-align: center;
 }
 
 .content-inner {
   display: inline-block;
-  width: 50vw; height: 50vh;
+  width: 50vw; height: 50%;
 }
 
 /*o shit waddup*/
@@ -35,6 +35,7 @@ html, body {
   height: 86vh;
   width: 30vw;
 }
+/*here come dat boi*/
 
 /**organization buttons**/
 .orgs div {

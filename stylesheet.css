@@ -3,10 +3,14 @@ html, body {
 }
 
 /** links at the bottom of intro page **/
-.introIcon {
+.rowIcons {
   padding-top: 2vh;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
+}
+
+.rowLabels {
+  font-family: 'Roboto'
 }
 
 /*reusable css for every section of the site. e.g. dev, writer, etc*/
@@ -28,7 +32,7 @@ html, body {
 .content-inner {
   display: inline-block;
   width: 50vw; height: 50%;
- 
+
 }
 
 /*o shit waddup*/
@@ -47,4 +51,11 @@ html, body {
 .orgs img:not(#mistImg){
   width: 15vh;
   height: 15vh;
+}
+
+/**Skill icons**/
+.skillIcon {
+  padding-top: 2vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
 }

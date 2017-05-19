@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- W3.css framework import -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<!-- Google Fonts API -->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+<!-- Custom CSS -->
+<link rel = "stylesheet" href="stylesheet.css">
+
+<!-- Head -->
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Irfaan Khalid</title>
+</head>
+
+<body>
+  <div class = "w3-container w3-indigo w3-text-white w3-center w3-card-4 partition" id = "home">
+    <img src="images/irfaan.jpg" class="w3-circle" style="width:52vh; height:52vh; margin-top:3vh;">
+    <h1 style = "padding-top: 1vh">Irfaan Khalid</h1>
+    <br></br>
+    <div class = "w3-container">
+      <a href = https://www.linkedin.com/in/irfaankhalid><i class = "fa fa-linkedin w3-xxxlarge rowIcons"></i></a>
+      <a href = https://github.com/IrfaanKhalid><i class = "fa fa-github w3-xxxlarge rowIcons"></i></a>
+      <a href = https://500px.com/irfdawg><i class = "fa fa-500px w3-xxxlarge rowIcons"></i></a>
+      <a href = https://soundcloud.com/irfdawg><i class = "fa fa-soundcloud w3-xxxlarge rowIcons"></i></a>
+      <a href = https://drive.google.com/file/d/0B7wUC2KRKDdmWkRnOWNqU0hyNFE/view><i class = "fa fa-file-text w3-xxxlarge rowIcons"></i></a>
+      <a href = "mailto:irfaan.khalid@vanderbilt.edu"><i class = "fa fa-envelope-o w3-xxxlarge rowIcons"></i></a>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- This script serves to help with vertical scrolling. -->
+  <script>
+      $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+              if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                  var target = $(this.hash);
+                  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                  if (target.length) {
+                      $('html,body').animate({
+                          scrollTop: target.offset().top - 43
+                      }, 1000);
+                      return false;
+                  }
+              }
+          });
+      });
+  </script>
+</body>
+
+</html>

@@ -14,7 +14,7 @@
         <a href="https://www.linkedin.com/in/irfaankhalid/" target="_blank" class="button--grey">LinkedIn</a>
         <a href="https://www.instagram.com/irfdawg/" target="_blank" class="button--grey">Instagram</a>
         <a href="resume.pdf" target="_blank" class="button--grey">Resume</a>
-        <a href="https://www.youtube.com/watch?v=dDkaGBkcqQ0" target="_blank" class="button--grey">My Most Recent Conference Talk</a>
+        <a href="https://www.youtube.com/watch?v=dDkaGBkcqQ0" target="_blank" class="button--grey">HackCon V Talk</a>
       </div>
     </div>
   </section>
@@ -51,6 +51,7 @@
   padding-top: 15px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .headshot {

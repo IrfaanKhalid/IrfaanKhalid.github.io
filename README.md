@@ -17,6 +17,9 @@ $ npm start
 
 # generate static project in dist/ folder
 $ npm run generate
+
+# To generate and copy my resume to dist/, run this before committing
+$ ./build.sh 
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).g

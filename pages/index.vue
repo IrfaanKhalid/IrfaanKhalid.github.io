@@ -47,10 +47,7 @@
 }
 
 .links {
-  padding-top: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  padding: 2.5%;
 }
 
 .headshot {

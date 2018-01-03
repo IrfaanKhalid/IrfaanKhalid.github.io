@@ -18,8 +18,8 @@ $ npm start
 # generate static project in dist/ folder
 $ npm run generate
 
-# To generate and copy my resume to dist/, run this before committing
-$ ./build.sh 
+# To generate static project, copy static assets, and immediately push to GitHub
+$ ./publish.sh 
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).g

@@ -13,7 +13,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0-rc11"
+    "nuxt": "^1.0.0-rc11",
+    "vue-awesome": "^2.3.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -27,6 +28,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "vue-icons": "^2.0.0",
-    "vue-svgicon": "^2.1.1"
+    "vue-svgicon": "^2.1.1",
+    "webpack-node-externals": "^1.6.0"
   }
 }

@@ -1,6 +1,6 @@
-# personal-website
+# IrfaanKhalid.github.io
 
-> Personal website built in Vue using Nuxt.js.
+Hi! This is my personal website built in Vue using Nuxt.js and deployed via Netlify.
 
 ## Build Setup
 
@@ -8,14 +8,14 @@
 # install dependencies
 $ npm install # Or yarn install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3000 (better than the alternative direcctly below)
 $ npm run dev
 
 # build for production and launch server
 $ npm run build
 $ npm start
 
-# generate static project
+# generate static project in dist/ folder
 $ npm run generate
 ```
 

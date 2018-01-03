@@ -1,6 +1,5 @@
 <template>
   <section class="container">
-    
     <div>
       <img src = "../img/me.png" class="headshot">
       <h1 class="title">

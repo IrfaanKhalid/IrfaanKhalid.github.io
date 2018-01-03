@@ -10,7 +10,7 @@ module.exports = {
             { hid: 'description', name: 'description', content: 'My personal website built in Vue using Nuxt.js.' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            { rel: 'shortcut icon', type: 'image/png', href: '/favicon.png' }
         ]
     },
     /*

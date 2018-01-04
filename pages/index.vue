@@ -9,11 +9,11 @@
         Click the links below to learn more about me.
       </h2>
       <div class="links">
-        <a href="https://github.com/IrfaanKhalid/" target="_blank" class="button--grey">GitHub</a>
-        <a href="https://www.linkedin.com/in/irfaankhalid/" target="_blank" class="button--grey">LinkedIn</a>
-        <a href="https://www.instagram.com/irfdawg/" target="_blank" class="button--grey">Instagram</a>
-        <a href="resume.pdf" target="_blank" class="button--grey">Resume</a>
-        <a href="https://www.youtube.com/watch?v=dDkaGBkcqQ0" target="_blank" class="button--grey">HackCon V Talk</a>
+        <a href="https://github.com/IrfaanKhalid/" target="_blank" class="button--grey link-button">GitHub</a>
+        <a href="https://www.linkedin.com/in/irfaankhalid/" target="_blank" class="button--grey link-button">LinkedIn</a>
+        <a href="https://www.instagram.com/irfdawg/" target="_blank" class="button--grey link-button">Instagram</a>
+        <a href="resume.pdf" target="_blank" class="button--grey link-button">Resume</a>
+        <a href="https://www.youtube.com/watch?v=dDkaGBkcqQ0" target="_blank" class="button--grey link-button">HackCon V Talk</a>
       </div>
     </div>
   </section>
@@ -47,7 +47,14 @@
 }
 
 .links {
-  padding: 2.5%;
+  padding-top: 1%;
+}
+
+.link-button {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .headshot {

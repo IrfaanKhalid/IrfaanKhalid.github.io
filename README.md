@@ -19,7 +19,7 @@ $ npm start
 $ npm run generate
 
 # To generate static project, copy static assets, and immediately push to GitHub
-$ ./publish.sh 
+$ ./build-publish.sh 
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).g
+For detailed explanation on how things work, check out the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).

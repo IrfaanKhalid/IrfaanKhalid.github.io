@@ -9,7 +9,7 @@
         Click the links below to learn more about me.
       </h2>
       <div class="links">
-        <a href="https://medium.com/@Irfdawg/" target="_blank" class="button--grey link-button">Blog</a>
+        <a href="https://medium.com/@Irfdawg/" target="_blank" class="button--grey link-button">Writing</a>
         <a href="https://github.com/IrfaanKhalid/" target="_blank" class="button--grey link-button">GitHub</a>
         <a href="https://www.linkedin.com/in/irfaankhalid/" target="_blank" class="button--grey link-button">LinkedIn</a>
         <a href="https://www.instagram.com/irfdawg/" target="_blank" class="button--grey link-button">Instagram</a>

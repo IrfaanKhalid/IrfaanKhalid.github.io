@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <img src = "../img/me.png" class="headshot">
+      <img src = "../img/me.jpg" class="headshot">
       <h1 class="title">
         Hi! I'm Irfaan.
       </h1>
@@ -30,8 +30,8 @@
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;

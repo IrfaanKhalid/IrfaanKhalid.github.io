@@ -8,9 +8,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "UA-130644862-1");
+      gtag('config', 'UA-130644862-1');
     </script>
   </head>
 

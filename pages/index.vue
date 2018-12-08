@@ -1,23 +1,49 @@
 <template>
-  <section class="container">
-    <div>
-      <img src = "../img/me.jpg" class="headshot">
-      <h1 class="title">
-        Hi! I'm Irfaan.
-      </h1>
-      <h2 class="subtitle">
-        Click the links below to learn more about me.
-      </h2>
-      <div class="links">
-        <a href="https://medium.com/@Irfdawg/" target="_blank" class="button--grey link-button">Blog</a>
-        <a href="https://github.com/IrfaanKhalid/" target="_blank" class="button--grey link-button">GitHub</a>
-        <a href="https://www.linkedin.com/in/irfaankhalid/" target="_blank" class="button--grey link-button">LinkedIn</a>
-        <a href="https://www.instagram.com/irfdawg/" target="_blank" class="button--grey link-button">Instagram</a>
-        <a href="resume.pdf" target="_blank" class="button--grey link-button">Resume</a>
-        <a href="https://www.youtube.com/watch?v=dDkaGBkcqQ0" target="_blank" class="button--grey link-button">HackCon V Talk</a>
-      </div>
+<section class="container">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130644862-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-130644862-1");
+    </script>
+  </head>
+
+  <div>
+    <img src="../img/me.jpg" class="headshot">
+    <h1 class="title">Hi! I'm Irfaan.</h1>
+    <h2 class="subtitle">Click the links below to learn more about me.</h2>
+    <div class="links">
+      <a href="https://medium.com/@Irfdawg/" target="_blank" class="button--grey link-button">Blog</a>
+      <a
+        href="https://github.com/IrfaanKhalid/"
+        target="_blank"
+        class="button--grey link-button"
+      >GitHub</a>
+      <a
+        href="https://www.linkedin.com/in/irfaankhalid/"
+        target="_blank"
+        class="button--grey link-button"
+      >LinkedIn</a>
+      <a
+        href="https://www.instagram.com/irfdawg/"
+        target="_blank"
+        class="button--grey link-button"
+      >Instagram</a>
+      <a href="resume.pdf" target="_blank" class="button--grey link-button">Resume</a>
+      <a
+        href="https://www.youtube.com/watch?v=dDkaGBkcqQ0"
+        target="_blank"
+        class="button--grey link-button"
+      >HackCon V Talk</a>
     </div>
-  </section>
+  </div>
+</section>
 </template>
 
 <style>
@@ -30,8 +56,8 @@
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;

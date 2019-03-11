@@ -37,10 +37,10 @@
       >Instagram</a>
       <a href="resume.pdf" target="_blank" class="button--grey link-button">Resume</a>
       <a
-        href="https://www.youtube.com/watch?v=dDkaGBkcqQ0"
+        href="https://www.youtube.com/playlist?list=PLXZnF0kCxgjAk2TnL2NQ1aTrFVMwGkYBX"
         target="_blank"
         class="button--grey link-button"
-      >HackCon V Talk</a>
+      >Speeches and Talks</a>
     </div>
   </div>
 </section>

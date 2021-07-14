@@ -9,3 +9,5 @@ npm-debug.log
 
 # git local info
 .git
+
+.vscode
